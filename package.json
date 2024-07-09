@@ -1,0 +1,30 @@
+{
+    "name": "aichat-bot",
+    "version": "1.0.0",
+    "description": "A Discord bot for ai chat and image2text.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": "16.x"
+    },
+    "keywords": [
+        "discord-bot",
+        "ai",
+        "chat-gpt",
+        "openai",
+        "chatbot",
+        "hercai"
+    ],
+    "author": "karim",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^14.14.1",
+        "hercai": "^12.3.1",
+        "node-fetch": "^2.6.1",
+        "node-telegram-bot-api": "^0.66.0",
+        "openai": "^4.52.4",
+        "tesseract.js": "^5.0.4"
+    }
+}
